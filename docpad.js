@@ -7,8 +7,8 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
+      name: "FISL 17",
+      description: "Maior conferencia de software livre do mundo",
       date: "November 15",
       // If your event is free, just comment this line
       price: "$100",
@@ -52,9 +52,9 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
+      about: "Sobre",
+      location: "Local",
+      speakers: "Palestrantes",
       schedule: "Schedule",
       sponsors: "Sponsors",
       partners: "Partners",
@@ -171,6 +171,11 @@ module.exports = {
     sponsors: [
       {
         name: "Eventick",
+        logo: "themes/yellow-swan/img/sponsor.png",
+        url: "http://eventick.com.br"
+      },
+       {
+        name: "FISL",
         logo: "themes/yellow-swan/img/sponsor.png",
         url: "http://eventick.com.br"
       }
